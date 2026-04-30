@@ -13,15 +13,15 @@
     <header class="cabecalho">
       <nav class="cabecalho__nav">
         <ul class="cabecalho__ul">
-          <li class="cabecalho__li"><a class="cabecalho__a cabecalho__a--active" href="#">HOME</a></li>
-          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/basquete.html">Basquete</a></li>
-          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/futebol.html">Futebol</a></li>
-          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/volei.html">Volei</a></li>
+          <li class="cabecalho__li"><a aria-label="Pagina Inicial"class="cabecalho__a cabecalho__a--active" href="#">HOME</a></li>
+          <li class="cabecalho__li"><a aria-label="Pagina de Basquete"class="cabecalho__a" href="./paginas/basquete.html">Basquete</a></li>
+          <li class="cabecalho__li"><a aria-label="Pagina de Futebol"class="cabecalho__a" href="./paginas/futebol.html">Futebol</a></li>
+          <li class="cabecalho__li"><a aria-label="Pagina de Volei"class="cabecalho__a" href="./paginas/volei.html">Volei</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="Conteudo">
       <section class="hero">
         <div class="hero__container">
           <h1 class="hero__title">A MELHOR PÁGINA DE ESPORTES DA INTERNET</h1>
@@ -32,26 +32,37 @@
         </div>
       </section>
 
-      <section>
-        <h2>Página - 1</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
-          debitis dicta placeat distinctio, magni, alias, velit perferendis?
-          Dolorum, voluptate quis. Sapiente quos officia magni maxime.
-        </p>
-        <a href="./pagina1.html">mais...</a>
-      </section>
-      <section>
-        <h2>Página - 2</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
-          debitis dicta placeat distinctio, magni, alias, velit perferendis?
-          Dolorum, voluptate quis. Sapiente quos officia magni maxime.
-        </p>
-        <a href="./pagina2/pagina2.html">mais...</a>
-      </section>
+
+      <div class="conteudo_sec">
+
+
+        <section class="conteudo_mod">
+          <h2>Basquete</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
+            debitis dicta placeat distinctio, magni, alias, velit perferendis?
+            Dolorum, voluptate quis. Sapiente quos officia magni maxime.
+          </p>
+          <a aria-label="Quer saber"href="./paginas/basquete.html" aria-label="Acesso  a pagina de basquete">mais sobre...</a>
+        </section>
+        <section class="conteudo_mod">
+          <h2>Futebol</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
+            debitis dicta placeat distinctio, magni, alias, velit perferendis?
+            Dolorum, voluptate quis. Sapiente quos officia magni maxime.
+          </p>
+          <a href="./paginas/futebol.html" aria-label="Acesso a pagina de Futebol">mais sobre...</a>
+  
+        </section>
+        <section class="conteudo_mod">
+          <h2>Volei</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam totam veritatis enim aut aliquid nihil eaque pariatur commodi quos dolor!</p>
+          <a aria-label="Acesso a Pagina de Volei"href="./paginas/volei.html">mais sobre...</a>
+        </section>
+      </div>
     </main>
 
     <footer>
