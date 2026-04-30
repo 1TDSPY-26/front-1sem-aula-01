@@ -1,0 +1,18 @@
+
+.conteudo__sec{
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.conteudo__mod{
+    background-color: #e9b469;
+    padding: 1rem;
+    box-shadow: 0 0 0 none;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.conteudo__mod:hover{
+    box-shadow: 7px 7px 7px #ff0000;
+}
