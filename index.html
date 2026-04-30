@@ -11,17 +11,17 @@
   <body>
 
     <header class="cabecalho">
-      <nav class="cabecalho__nav">
+      <nav aria-label="Menu de navegação principal" class="cabecalho__nav">
         <ul class="cabecalho__ul">
-          <li class="cabecalho__li"><a class="cabecalho__a cabecalho__a--active" href="#">HOME</a></li>
-          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/basquete.html">Basquete</a></li>
-          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/futebol.html">Futebol</a></li>
-          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/volei.html">Volei</a></li>
+          <li class="cabecalho__li"><a aria-label="Acessar Página principal" class="cabecalho__a cabecalho__a--active" href="#">HOME</a></li>
+          <li class="cabecalho__li"><a aria-label="Acessar Página" class="cabecalho__a" href="./paginas/basquete.html">Basquete</a></li>
+          <li class="cabecalho__li"><a aria-label="Acessar Página" class="cabecalho__a" href="./paginas/futebol.html">Futebol</a></li>
+          <li class="cabecalho__li"><a aria-label="Acessar Página" class="cabecalho__a" href="./paginas/volei.html">Volei</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main class="conteudo">
       <section class="hero">
         <div class="hero__container">
           <h1 class="hero__title">A MELHOR PÁGINA DE ESPORTES DA INTERNET</h1>
@@ -32,26 +32,41 @@
         </div>
       </section>
 
-      <section>
-        <h2>Página - 1</h2>
+      <div class="conteudo__sec">
+
+      <section class="conteudo__mod">
+        <h2>Basquete</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
           debitis dicta placeat distinctio, magni, alias, velit perferendis?
           Dolorum, voluptate quis. Sapiente quos officia magni maxime.
         </p>
-        <a href="./pagina1.html">mais...</a>
+        <a aria-label="Quer saber" href="./paginas/basquete.html">mais sobre...</a>
       </section>
-      <section>
-        <h2>Página - 2</h2>
+      <section class="conteudo__mod">
+        <h2>Futebol</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
           debitis dicta placeat distinctio, magni, alias, velit perferendis?
           Dolorum, voluptate quis. Sapiente quos officia magni maxime.
         </p>
-        <a href="./pagina2/pagina2.html">mais...</a>
+        <a aria-label="Quer saber" href="./paginas/futebol.html">mais sobre...</a>
       </section>
+      <section class="conteudo__mod">
+        <h2>Volei</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
+          debitis dicta placeat distinctio, magni, alias, velit perferendis?
+          Dolorum, voluptate quis. Sapiente quos officia magni maxime.
+        </p>
+        <a aria-label="Quer saber" href="./paginas/volei.html">mais sobre...</a>
+      </section>
+
+      </div>
+
     </main>
 
     <footer>
